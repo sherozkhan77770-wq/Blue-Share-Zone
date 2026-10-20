@@ -1,0 +1,34 @@
+
+name: blue_share_zone
+description: Blue Share Zone messaging app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  provider: ^6.1.5
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  shared_preferences: ^2.5.3
+  image_picker: ^1.1.2
+  file_picker: ^10.0.0
+  permission_handler: ^12.0.0
+  flutter_blue_plus: ^2.3.14
+  flutter_webrtc: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
